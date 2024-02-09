@@ -17,4 +17,4 @@ jobs:
     - name: Configure Git safe directory
       run: git config --global --add safe.directory /__w/ssh-over-audio/ssh-over-audio
     - name: Build
-      run: go build -v ./...
+      run: go build -v -o bin/audioproxy ./audioproxy
